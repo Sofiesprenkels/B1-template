@@ -155,8 +155,6 @@ button{
   height: 64px;
 }
 
-.sidy-by-side{
-}
 
 .description{
   flex: 1;
@@ -201,7 +199,7 @@ footer{
   }
 
   .row{
-    flex-direction: column;
+    flex-direction: row;
   }
   .sidy-by-side{
     flex-direction: column;
