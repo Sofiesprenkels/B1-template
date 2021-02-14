@@ -100,6 +100,10 @@ table tfoot{
   font-weight: bold;
 }
 
+.product-mok{
+  display: flex;
+}
+
 article{
   border-left: 5px solid #27AE60;
   padding-left: 10px;
@@ -227,6 +231,12 @@ footer{
   .side-by-side{
     display: block;
     text-align: center;
+  }
+  .product-mok{
+    display: block;
+  }
+  .product-mok img{
+    width: 84%;
   }
 }
 
