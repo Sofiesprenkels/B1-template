@@ -183,8 +183,11 @@ button{
   height: 64px;
 }
 
-.sidy-by-side{
-  
+.side-by-side{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
 }
 
 .description{
@@ -221,7 +224,10 @@ footer{
   .hidden-on-sm{
     display: none;
   }
-
+  .side-by-side{
+    display: block;
+    text-align: center;
+  }
 }
 
 /* 
@@ -236,12 +242,10 @@ footer{
   }
 
   .row{
+    display: flex;
     flex-direction: row;
   }
-  .sidy-by-side{
-    flex-direction: column;
-    align-items: center;
-  }
+ 
 }
 
 /*
